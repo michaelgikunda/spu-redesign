@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Contact Us | A Leading Christian University</title>
+<meta name="description" content="Explore our programs and discover why St. Paul's University is the perfect choice for your higher education needs. Learn about our high-quality education, experienced faculty, and successful alumni. Apply now and take the first step towards a rewarding future at SPU.">
+<meta name="author" content="St. Paul's University">
+<link href="logo-small.png" rel="icon" sizes="68x55" type="image/png">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="css/web-project.css" rel="stylesheet">
+<link href="css/contacts.css" rel="stylesheet">
+<script src="javascript/jquery-3.6.0.min.js"></script>
+<script src="javascript/skrollr.min.js"></script>
+<script src="javascript/popper.min.js"></script>
+<script src="javascript/bootstrap.min.js"></script>
+<script src="javascript/bootstrap.dropdown.min.js" defer></script>
+<script src="javascript/affix.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function(event)
+{
+   var DropdownMenu1_dropdownToggle = document.querySelectorAll('#DropdownMenu1 .dropdown-toggle');
+   DropdownMenu1_dropdownToggle.forEach(item => 
+   {
+      var dropdown = new bootstrap.Dropdown(item, {popperConfig:{placement:item.getAttribute('data-bs-placement')}});
+   });
+   var DropdownMenu1_dropdown = document.querySelectorAll('#DropdownMenu1 .dropdown');
+   DropdownMenu1_dropdown.forEach(item => 
+   {
+      item.addEventListener('shown.bs.dropdown', function(e)
+      {
+         e.currentTarget.classList.add('show');
+      });
+      item.addEventListener('hidden.bs.dropdown', function(e)
+      {
+         e.currentTarget.classList.remove('show');
+      });
+   });
+   $("#wb_DropdownMenu1").affix({offset:{top: $("#wb_DropdownMenu1").offset().top}});
+});
+</script>
+<script>
+$(document).ready(function()
+{
+   function skrollrInit()
+   {
+      skrollr.init({forceHeight: false, mobileCheck: function() { return false; }, smoothScrolling: false});
+   }
+   skrollrInit();
+   $("#wb_DropdownMenu1").affix({offset:{top: $("#wb_DropdownMenu1").offset().top}});
+   if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {$('#preloader').remove();}
+});
+$(window).on('load', function()
+{
+   $('#preloader').remove();
+});
+</script>
+</head>
+<body>
+<div id="wb_Image1" style="position:absolute;left:0px;top:0px;width:1360px;height:793px;z-index:5;">
+<img src="images/pexels-tyler-lastovich-937782.jpg" id="Image1" alt="Your University of choise" title="St. Paul&apos;s" width="1360" height="935"></div>
+<div id="wb_Text1" style="position:absolute;left:100px;top:300px;width:1160px;height:109px;z-index:6;" class="h1">
+<span style="color:#000000;font-family:Boldfinger;font-size:96px;">Contact St. Pauls Uni.</span></div>
+<div id="wb_Text2" style="position:absolute;left:463px;top:905px;width:434px;height:39px;text-align:center;z-index:7;" data--1-top="opacity:0.9;" data-bottom-top="transform: rotate(0deg);opacity:1;" data-top="transform: rotate(3deg);filter:blur(3px);" data-center-top="filter:blur(0px);">
+<span style="color:#F5F5F5;font-family:'DISCIPLINA PERSONAL USE';font-size:32px;">Contact Us</span></div>
+<div id="wb_Text3" style="position:absolute;left:465px;top:409px;width:430px;height:50px;text-align:center;z-index:8;">
+<span style="color:#FFFFFF;font-family:Alacarte;font-size:48px;">Your University of Choise!</span></div>
+<div id="wb_Text4" style="position:absolute;left:372px;top:1038px;width:617px;height:117px;text-align:justify;z-index:9;">
+<span style="color:#FFFFFF;font-family:Abel;font-size:20px;line-height:39px;">If you have any questions about St. Paul's University, please don't hesitate to get in touch with us. We're always happy to hear from prospective students, alumni, and members of the community.</span></div>
+<div id="wb_Text5" style="position:absolute;left:463px;top:1359px;width:434px;height:39px;text-align:center;z-index:10;" data--1-top="opacity:0.9;" data-bottom-top="transform: rotate(0deg);opacity:1;" data-top="transform: rotate(3deg);filter:blur(3px);" data-center-top="filter:blur(0px);">
+<span style="color:#F5F5F5;font-family:'DISCIPLINA PERSONAL USE';font-size:32px;">Contact Form</span></div>
+<div id="wb_Form1" style="position:absolute;left:463px;top:1460px;width:434px;height:367px;z-index:11;">
+<form action="php/contacts.php" method="post">
+   <input type="hidden" name="formid" value="form1">
+<label for="Editbox1" id="Label1" style="position:absolute;left:61px;top:61px;width:64px;height:19px;line-height:19px;z-index:0;">Email:</label>
+<input type="text" id="Editbox1" style="position:absolute;left:60px;top:88px;width:302px;height:21px;z-index:1;" name="Editbox1" value="" spellcheck="false" placeholder="EG: johndoe@gmail.com">
+<label for="TextArea1" id="Label2" style="position:absolute;left:61px;top:145px;width:74px;height:16px;line-height:16px;z-index:2;">Comments:</label>
+<textarea name="comments" id="TextArea1" style="position:absolute;left:60px;top:169px;width:302px;height:90px;z-index:3;" rows="5" cols="47" spellcheck="false" placeholder="Start writting"></textarea>
+<input type="submit" id="Button1" name="" value="Submit" style="position:absolute;left:168px;top:299px;width:96px;height:44px;z-index:4;">
+
+</form>
+</div>
+<div id="wb_Text6" style="position:absolute;left:29px;top:2027px;width:434px;height:39px;text-align:center;z-index:12;">
+<span style="color:#F5F5F5;font-family:'DISCIPLINA PERSONAL USE';font-size:32px;">Contact Information</span></div>
+<div id="wb_Text7" style="position:absolute;left:89px;top:2066px;width:272px;height:273px;text-align:justify;z-index:13;">
+<span style="color:#FFFFFF;font-family:Abel;font-size:20px;line-height:39px;">Phone: +254 722 205 492<br>Email: info@spu.ac.ke<br><br>Physical Address:<br>St. Paul's University<br>P.O. Box 14699-00800<br>Nairobi, Kenya</span></div>
+<div id="wb_Text8" style="position:absolute;left:504px;top:2027px;width:254px;height:39px;text-align:center;z-index:14;">
+<span style="color:#F5F5F5;font-family:'DISCIPLINA PERSONAL USE';font-size:32px;">Social Links</span></div>
+<div id="wb_Icon1" style="position:absolute;left:544px;top:2106px;width:53px;height:30px;text-align:center;z-index:15;">
+<div id="Icon1"><i class="fa fa-facebook"></i></div></div>
+<div id="wb_Icon2" style="position:absolute;left:597px;top:2106px;width:53px;height:30px;text-align:center;z-index:16;">
+<div id="Icon2"><i class="fa fa-instagram"></i></div></div>
+<div id="wb_Icon3" style="position:absolute;left:654px;top:2106px;width:53px;height:30px;text-align:center;z-index:17;">
+<div id="Icon3"><i class="fa fa-twitter"></i></div></div>
+<div id="wb_DropdownMenu1" style="position:absolute;left:483px;top:47px;width:515px;height:38px;z-index:18;">
+<div id="DropdownMenu1" class="DropdownMenu1" style="width:100%;height:auto !important;">
+<div class="container">
+<div class="navbar-header">
+<button title="Dropdown Menu" type="button" class="navbar-toggle" data-bs-toggle="collapse" data-bs-target=".DropdownMenu1-navbar-collapse">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<div class="DropdownMenu1-navbar-collapse collapse">
+<ul class="nav navbar-nav" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
+<li itemprop="name" class="nav-item">
+<a href="./index.html" class="nav-link" itemprop="url">Home</a>
+</li>
+<li itemprop="name" class="nav-item">
+<a href="./about.html" class="nav-link" itemprop="url">About</a>
+</li>
+<li itemprop="name" class="nav-item">
+<a href="./contacts.html" class="nav-link" itemprop="url">Contacts</a>
+</li>
+<li itemprop="name" class="nav-item">
+<a href="./signup.html" class="nav-link" itemprop="url">Blog</a>
+</li>
+<li itemprop="name" class="nav-item dropdown-hover dropdown">
+<a href="#" class="dropdown-toggle" data-bs-offset="0,1" data-bs-placement="bottom-start" data-bs-toggle="dropdown">Portals<b class="caret"></b></a>
+<ul class="dropdown-menu">
+<li itemprop="name" class="nav-item dropdown-item">
+<a href="https://students.spu.ac.ke/" target="_blank" class="nav-link" itemprop="url">Student</a>
+</li>
+<li itemprop="name" class="nav-item dropdown-item">
+<a href="https://exams.spu.ac.ke/login/index.php" target="_blank" class="nav-link" itemprop="url">Exams</a>
+</li>
+<li itemprop="name" class="nav-item dropdown-item">
+<a href="https://elearning.spu.ac.ke/login/index.php" target="_blank" class="nav-link" itemprop="url">E-Learning</a>
+</li>
+<li itemprop="name" class="nav-item dropdown-item">
+<a href="https://staff.spu.ac.ke/" target="_blank" class="nav-link" itemprop="url">staff</a>
+</li>
+</ul>
+</li>
+<li itemprop="name" class="nav-item">
+<a href="./apply.html" class="nav-link" itemprop="url">Apply Now</a>
+</li>
+</ul>
+</div>
+</div>
+</div></div>
+<div id="preloader"></div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Login | A Leading Christian University</title>
+<meta name="description" content="Explore our programs and discover why St. Paul's University is the perfect choice for your higher education needs. Learn about our high-quality education, experienced faculty, and successful alumni. Apply now and take the first step towards a rewarding future at SPU.">
+<meta name="author" content="St. Paul's University">
+<link href="logo-small.png" rel="icon" sizes="68x55" type="image/png">
+<link href="css/web-project.css" rel="stylesheet">
+<link href="css/login.css" rel="stylesheet">
+<script src="javascript/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {$('#preloader').remove();}
+});
+$(window).on('load', function()
+{
+   $('#preloader').remove();
+});
+</script>
+</head>
+<body>
+<form action="php/login.php" method="post">
+   <div id="wb_Shape1" style="position:absolute;left:407px;top:64px;width:546px;height:572px;z-index:0;">
+   <img src="images/img0002.png" id="Shape1" alt="" width="546" height="572" style="width:546px;height:572px;"></div>
+   <div id="wb_Text1" style="position:absolute;left:526px;top:139px;width:308px;height:72px;text-align:center;z-index:1;">
+   <span style="color:#000000;font-family:Boldfinger;font-size:64px;">Login</span></div>
+   <input type="email" id="Editbox2" style="position:absolute;left:488px;top:292px;width:372px;height:55px;z-index:2;" name="email" value="" spellcheck="false" placeholder="Eg: johndoe@gmail.com">
+   <input type="password" id="Editbox3" style="position:absolute;left:488px;top:398px;width:372px;height:55px;z-index:3;" name="password" value="" spellcheck="false" placeholder="Eg: password123">
+   <button type="submit" id="ThemeableButton1" name="" value="Login" class="ui-button ui-corner-all" style="position:absolute;left:612px;top:558px;width:135px;height:62px;z-index:4;">Login</button>
+   <div id="wb_Text3" style="position:absolute;left:497px;top:273px;width:148px;height:16px;z-index:5;">
+   <span style="color:#000000;font-family:Bahnschrift;font-size:13px;">Email</span></div>
+   <div id="wb_Text4" style="position:absolute;left:497px;top:380px;width:145px;height:16px;z-index:6;">
+   <span style="color:#000000;font-family:Bahnschrift;font-size:13px;">Password</span></div>
+   <div id="wb_ThemeableButton2" style="position:absolute;left:1213px;top:12px;width:135px;height:62px;z-index:7;">
+   <a class="ui-button ui-corner-all" id="ThemeableButton2" href="./signup.html" style="width:100%;height:100%;">Sign Up</a></div>
+   <div id="wb_ThemeableButton3" style="position:absolute;left:33px;top:12px;width:135px;height:62px;z-index:8;">
+   <a class="ui-button ui-corner-all" id="ThemeableButton3" href="./index.html" style="width:100%;height:100%;">Home</a></div>
+   <div id="preloader"></div>
+      
+</form>
+</body>
+</html>

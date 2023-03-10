@@ -1,0 +1,128 @@
+body
+{
+   background-color: #FFFFFF;
+   background-image: url('../images/df589b9ba0a489126e05cbe286f0c70a.png');
+   background-attachment: scroll;
+   background-position: left top;
+   background-repeat: repeat;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#Shape1
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#Shape1
+{
+   filter: drop-shadow(0px 0px 100px rgba(0,0,0,0.20));
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text1 div
+{
+   text-align: left;
+}
+#Editbox1
+{
+   border: 1px solid #C5C5C5;
+   border-radius: 4px;
+   background-color: #F6F6F6;
+   background-image: none;
+   color: #454545;
+   font-family: Bahnschrift;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   line-height: 52px;
+   margin: 0;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+}
+#Editbox1:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#ThemeableButton1
+{
+   font-family: Bahnschrift;
+   font-weight: normal;
+   font-size: 15px;
+   font-style: normal;
+   display: inline-block;
+   position: relative;
+   vertical-align: middle;
+   user-select: none;
+   overflow: visible;
+   text-decoration: none;
+   cursor: pointer;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   vertical-align: top;
+}
+#ThemeableButton1 .ui-button
+{
+   position: absolute;
+   padding: 0;
+}
+#ThemeableButton1.ui-corner-all
+{
+   border-bottom-left-radius: 10px;
+   border-top-left-radius: 10px;
+}
+#ThemeableButton1.ui-corner-all
+{
+   border-bottom-right-radius: 10px;
+   border-top-right-radius: 10px;
+}
+#ThemeableButton1.ui-button
+{
+   background-color: #000000;
+   background-image: none;
+   border: 0px solid #C5C5C5;
+   color: #FFFFFF;
+}
+#ThemeableButton1.ui-state-hover, #ThemeableButton1.ui-button:hover
+{
+   border-color: #CCCCCC;
+   background-color: #EDEDED;
+   background-image: none;
+   color: #2B2B2B;
+}
+#ThemeableButton1.ui-state-active, #ThemeableButton1.ui-button:active
+{
+   border-color: #2E6DA4;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text2 div
+{
+   text-align: left;
+}

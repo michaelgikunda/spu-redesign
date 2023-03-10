@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Sign Up | A Leading Christian University</title>
+<meta name="description" content="Explore our programs and discover why St. Paul's University is the perfect choice for your higher education needs. Learn about our high-quality education, experienced faculty, and successful alumni. Apply now and take the first step towards a rewarding future at SPU.">
+<meta name="author" content="St. Paul's University">
+<link href="logo-small.png" rel="icon" sizes="68x55" type="image/png">
+<link href="css/web-project.css" rel="stylesheet">
+<link href="css/signup.css" rel="stylesheet">
+<script src="javascript/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("#FileUpload1 :file").on('change', function()
+   {
+      var input = $(this).parents('.input-group').find(':text');
+      input.val($(this).val());
+   });
+   if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {$('#preloader').remove();}
+});
+$(window).on('load', function()
+{
+   $('#preloader').remove();
+});
+</script>
+</head>
+<body>
+<form action="php/signup.php" method="post">
+   <div id="wb_Shape1" style="position:absolute;left:407px;top:64px;width:546px;height:572px;z-index:0;">
+      <img src="images/img0001.png" id="Shape1" alt="" width="546" height="572" style="width:546px;height:572px;"></div>
+      <div id="wb_Text1" style="position:absolute;left:526px;top:74px;width:308px;height:72px;text-align:center;z-index:1;">
+      <span style="color:#000000;font-family:Boldfinger;font-size:64px;">Sign Up</span></div>
+      <input type="text" id="Editbox1" style="position:absolute;left:490px;top:181px;width:370px;height:55px;z-index:2;" name="name" value="" spellcheck="false" placeholder="Eg: John">
+      <input type="email" id="Editbox2" style="position:absolute;left:488px;top:270px;width:372px;height:55px;z-index:3;" name="email" value="" spellcheck="false" placeholder="Eg: johndoe@gmail.com">
+      <input type="password" id="Editbox3" style="position:absolute;left:488px;top:361px;width:372px;height:55px;z-index:4;" name="password" value="" spellcheck="false" placeholder="Eg: password123">
+      <div id="FileUpload1" class="input-group" style="position:absolute;left:488px;top:460px;width:382px;height:65px;z-index:5;">
+      <input class="form-control" type="text" readonly="" id="FileUpload1-input">
+      <label class="input-group-btn">
+      <input type="file" accept=".jpeg,.jpg,.png" name="FileUpload1" id="FileUpload1-file" style="display:none;"><span class="btn">Browse...</span>
+      </label>
+      </div>
+      <button type="submit" id="ThemeableButton1" name="" value="Sign Up" class="ui-button ui-corner-all" style="position:absolute;left:612px;top:558px;width:135px;height:62px;z-index:6;">Sign Up</button>
+      <div id="wb_Text2" style="position:absolute;left:497px;top:160px;width:199px;height:16px;z-index:7;">
+      <span style="color:#000000;font-family:Bahnschrift;font-size:13px;">Name</span></div>
+      <div id="wb_Text3" style="position:absolute;left:497px;top:251px;width:148px;height:16px;z-index:8;">
+      <span style="color:#000000;font-family:Bahnschrift;font-size:13px;">Email</span></div>
+      <div id="wb_Text4" style="position:absolute;left:497px;top:342px;width:145px;height:16px;z-index:9;">
+      <span style="color:#000000;font-family:Bahnschrift;font-size:13px;">Password</span></div>
+      <div id="wb_Text5" style="position:absolute;left:497px;top:440px;width:105px;height:16px;z-index:10;">
+      <span style="color:#000000;font-family:Bahnschrift;font-size:13px;">Profile Pic</span></div>
+      <div id="wb_ThemeableButton2" style="position:absolute;left:1213px;top:12px;width:135px;height:62px;z-index:11;">
+      <a class="ui-button ui-corner-all" id="ThemeableButton2" href="./login.html" style="width:100%;height:100%;">Login</a></div>
+      <div id="wb_ThemeableButton3" style="position:absolute;left:33px;top:12px;width:135px;height:62px;z-index:12;">
+      <a class="ui-button ui-corner-all" id="ThemeableButton3" href="./index.html" style="width:100%;height:100%;">Home</a></div>
+      <div id="preloader"></div>
+      
+</form>
+</body>
+</html>

@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>St. Paul's University | A Leading Christian University</title>
+<meta name="description" content="Explore our programs and discover why St. Paul's University is the perfect choice for your higher education needs. Learn about our high-quality education, experienced faculty, and successful alumni. Apply now and take the first step towards a rewarding future at SPU.">
+<meta name="author" content="St. Paul's University">
+<link href="logo-small.png" rel="icon" sizes="68x55" type="image/png">
+<link href="css/web-project.css" rel="stylesheet">
+<link href="css/index.css" rel="stylesheet">
+<script src="javascript/jquery-3.6.0.min.js"></script>
+<script src="javascript/skrollr.min.js"></script>
+<script src="javascript/popper.min.js"></script>
+<script src="javascript/bootstrap.min.js"></script>
+<script src="javascript/bootstrap.dropdown.min.js" defer></script>
+<script src="javascript/affix.min.js"></script>
+<script src="javascript/wb.conveyerbelt.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function(event)
+{
+   var DropdownMenu1_dropdownToggle = document.querySelectorAll('#DropdownMenu1 .dropdown-toggle');
+   DropdownMenu1_dropdownToggle.forEach(item => 
+   {
+      var dropdown = new bootstrap.Dropdown(item, {popperConfig:{placement:item.getAttribute('data-bs-placement')}});
+   });
+   var DropdownMenu1_dropdown = document.querySelectorAll('#DropdownMenu1 .dropdown');
+   DropdownMenu1_dropdown.forEach(item => 
+   {
+      item.addEventListener('shown.bs.dropdown', function(e)
+      {
+         e.currentTarget.classList.add('show');
+      });
+      item.addEventListener('hidden.bs.dropdown', function(e)
+      {
+         e.currentTarget.classList.remove('show');
+      });
+   });
+   $("#wb_DropdownMenu1").affix({offset:{top: $("#wb_DropdownMenu1").offset().top}});
+});
+</script>
+<script>
+$(document).ready(function()
+{
+   function skrollrInit()
+   {
+      skrollr.init({forceHeight: false, mobileCheck: function() { return false; }, smoothScrolling: false});
+   }
+   skrollrInit();
+   $("#wb_DropdownMenu1").affix({offset:{top: $("#wb_DropdownMenu1").offset().top}});
+   $("#SlideShow1").conveyerbelt({speed:3, spacing: 5});
+   if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {$('#preloader').remove();}
+});
+$(window).on('load', function()
+{
+   $('#preloader').remove();
+});
+</script>
+</head>
+<body>
+<div id="wb_Image2" style="position:absolute;left:675px;top:1063px;width:683px;height:394px;opacity:0.40;z-index:0;">
+<img src="images/pexels-abby-chung-1106468.jpg" id="Image2" alt="" width="683" height="456"></div>
+<div id="wb_Image1" style="position:absolute;left:0px;top:0px;width:1360px;height:793px;z-index:1;">
+<img src="images/pexels-emiliano-arano-1352196.jpg" id="Image1" alt="Your University of choise" title="St. Paul&apos;s" width="1360" height="907"></div>
+<div id="wb_Text1" style="position:absolute;left:143px;top:291px;width:1074px;height:109px;z-index:2;" class="h1">
+<span style="color:#000000;font-family:Boldfinger;font-size:96px;">St. Paul's University</span></div>
+<div id="wb_Text2" style="position:absolute;left:568px;top:906px;width:434px;height:39px;z-index:3;" data--1-top="opacity:0.8;" data-bottom-top="transform: rotate(0deg);opacity:1;" data-top="transform: rotate(3deg);filter:blur(3px);" data-center-top="filter:blur(0px);">
+<span style="color:#F5F5F5;font-family:'DISCIPLINA PERSONAL USE';font-size:32px;">Why Study Here</span></div>
+<div id="wb_DropdownMenu1" style="position:absolute;left:483px;top:47px;width:515px;height:38px;z-index:4;">
+<div id="DropdownMenu1" class="DropdownMenu1" style="width:100%;height:auto !important;">
+<div class="container">
+<div class="navbar-header">
+<button title="Dropdown Menu" type="button" class="navbar-toggle" data-bs-toggle="collapse" data-bs-target=".DropdownMenu1-navbar-collapse">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<div class="DropdownMenu1-navbar-collapse collapse">
+<ul class="nav navbar-nav" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
+<li itemprop="name" class="nav-item">
+<a href="./index.html" class="nav-link" itemprop="url">Home</a>
+</li>
+<li itemprop="name" class="nav-item">
+<a href="./about.html" class="nav-link" itemprop="url">About</a>
+</li>
+<li itemprop="name" class="nav-item">
+<a href="./contacts.html" class="nav-link" itemprop="url">Contacts</a>
+</li>
+<li itemprop="name" class="nav-item">
+<a href="./signup.html" class="nav-link" itemprop="url">Blog</a>
+</li>
+<li itemprop="name" class="nav-item dropdown-hover dropdown">
+<a href="#" class="dropdown-toggle" data-bs-offset="0,1" data-bs-placement="bottom-start" data-bs-toggle="dropdown">Portals<b class="caret"></b></a>
+<ul class="dropdown-menu">
+<li itemprop="name" class="nav-item dropdown-item">
+<a href="https://students.spu.ac.ke/" target="_blank" class="nav-link" itemprop="url">Student</a>
+</li>
+<li itemprop="name" class="nav-item dropdown-item">
+<a href="https://exams.spu.ac.ke/login/index.php" target="_blank" class="nav-link" itemprop="url">Exams</a>
+</li>
+<li itemprop="name" class="nav-item dropdown-item">
+<a href="https://elearning.spu.ac.ke/login/index.php" target="_blank" class="nav-link" itemprop="url">E-Learning</a>
+</li>
+<li itemprop="name" class="nav-item dropdown-item">
+<a href="https://staff.spu.ac.ke/" target="_blank" class="nav-link" itemprop="url">staff</a>
+</li>
+</ul>
+</li>
+<li itemprop="name" class="nav-item">
+<a href="./apply.html" class="nav-link" itemprop="url">Apply Now</a>
+</li>
+</ul>
+</div>
+</div>
+</div></div>
+<div id="wb_Text3" style="position:absolute;left:465px;top:409px;width:430px;height:50px;text-align:center;z-index:5;">
+<span style="color:#FFFFFF;font-family:Alacarte;font-size:48px;">Your University of Choise!</span></div>
+<div id="wb_Text4" style="position:absolute;left:20px;top:1041px;width:617px;height:462px;z-index:6;">
+<span style="color:#F5F5F5;font-family:Abel;font-size:19px;line-height:42px;">At St. Paul's University, we provide a </span><span style="background-color:#FFA500;color:#000000;font-family:Abel;font-size:19px;line-height:42px;"><strong>student-centered education</strong></span><span style="color:#F5F5F5;font-family:Abel;font-size:19px;line-height:42px;">&nbsp; that prepares graduates for success in their careers and in life. Our range of undergraduate and graduate programs offers academic rigor and a deep commitment to Christian values.<br><br>Our experienced faculty provide </span><span style="background-color:#FFA500;color:#000000;font-family:Abel;font-size:19px;line-height:42px;"><strong>personalized attention and support to each student</strong></span><span style="color:#F5F5F5;font-family:Abel;font-size:19px;line-height:42px;">, and we offer a wide range of extracurricular activities that allow students to develop important leadership and teamwork skills.<br><br>Our graduates </span><span style="color:#FFFFFF;font-family:Abel;font-size:19px;line-height:42px;">are highly sought after by employers</span><span style="color:#F5F5F5;font-family:Abel;font-size:19px;line-height:42px;"> , and many have </span><span style="background-color:#FFA500;color:#000000;font-family:Abel;font-size:19px;line-height:42px;"><strong>achieved great success in their careers</strong></span><span style="color:#F5F5F5;font-family:Abel;font-size:19px;line-height:42px;">. Join our community of passionate learners and leaders and start your academic journey today.</span></div>
+<div id="wb_Text5" style="position:absolute;left:463px;top:1685px;width:434px;height:39px;text-align:center;z-index:7;" data--1-top="opacity:0.8;" data-50-top="transform: rotate(3deg);" data-bottom-top="opacity:1;" data-top="filter:blur(3px);" data-25-bottom-top="transform: rotate(0deg);" data-center-top="filter:blur(0px);">
+<span style="color:#F5F5F5;font-family:'DISCIPLINA PERSONAL USE';font-size:32px;">Programs We Offer</span></div>
+<div id="wb_Text6" style="position:absolute;left:205px;top:1761px;width:950px;height:63px;text-align:center;z-index:8;" data-20-top="transform:translate(0px,20px);" data-20-bottom-top="transform:translate(0px,20px);">
+<span style="color:#F5F5F5;font-family:Abel;font-size:16px;line-height:32px;">At St. Paul's University, we offer a wide range of academic programs designed to meet the needs of students at every level. Whether you are looking to earn a PhD, a Master's degree, an undergraduate degree, or a certificate or diploma, we have a program that is right for you.</span></div>
+<div id="wb_Text7" style="position:absolute;left:100px;top:2031px;width:385px;height:36px;z-index:9;" data--1-top="opacity:0.8;" data-50-top="transform: rotate(3deg);" data-50-bottom-top="transform: rotate(0deg);" data-bottom-top="opacity:1;" data-top="filter:blur(3px);" data-center-top="filter:blur(0px);">
+<span style="color:#F5F5F5;font-family:'Open Sans Condensed';font-size:27px;">PhD&nbsp; programs:</span></div>
+<div id="wb_Text8" style="position:absolute;left:100px;top:2091px;width:662px;height:156px;z-index:10;" data-20-top="transform:translate(0px,20px);" data-25-bottom-top="transform:translate(0px,25px);">
+<span style="color:#F5F5F5;font-family:Abel;font-size:20px;line-height:39px;">Our PhD programs provide advanced training in a range of fields, including theology, education, business, and more. With a focus on cutting-edge research and scholarship, our PhD programs prepare students to make important contributions to their fields of study.</span></div>
+<div id="wb_Image3" style="position:absolute;left:852px;top:2006px;width:408px;height:272px;z-index:11;">
+<img src="images/pexels-andrea-piacquadio-3769021.jpg" id="Image3" alt="" width="408" height="272"></div>
+<div id="wb_Text9" style="position:absolute;left:100px;top:2415px;width:385px;height:36px;z-index:12;" data--1-top="opacity:0.8;" data-50-top="transform: rotate(3deg);" data-50-bottom-top="transform: rotate(0deg);" data-bottom-top="opacity:1;" data-top="filter:blur(3px);" data-center-top="filter:blur(0px);">
+<span style="color:#F5F5F5;font-family:'Open Sans Condensed';font-size:27px;">Masters programs:</span></div>
+<div id="wb_Text10" style="position:absolute;left:100px;top:2475px;width:662px;height:156px;z-index:13;" data-20-top="transform:translate(0px,20px);" data-25-bottom-top="transform:translate(0px,25px);">
+<span style="color:#F5F5F5;font-family:Abel;font-size:20px;line-height:39px;">Our Master's programs include degrees in business administration, education, counseling, theology, and more. With a focus on practical, real-world experience, our Master's programs provide the knowledge and skills necessary to succeed in today's competitive job market.</span></div>
+<div id="wb_Image4" style="position:absolute;left:852px;top:2390px;width:408px;height:272px;z-index:14;">
+<img src="images/pexels-julia-m-cameron-4143798.jpg" id="Image4" alt="" width="408" height="611"></div>
+<div id="wb_Text11" style="position:absolute;left:100px;top:2789px;width:385px;height:36px;z-index:15;" data--1-top="opacity:0.8;" data-50-top="transform: rotate(3deg);" data-50-bottom-top="transform: rotate(0deg);" data-bottom-top="opacity:1;" data-top="filter:blur(3px);" data-center-top="filter:blur(0px);">
+<span style="color:#F5F5F5;font-family:'Open Sans Condensed';font-size:27px;">Diploma programs:</span></div>
+<div id="wb_Text12" style="position:absolute;left:100px;top:2851px;width:662px;height:117px;z-index:16;" data-20-top="transform:translate(0px,20px);" data-25-bottom-top="transform:translate(0px,25px);">
+<span style="color:#F5F5F5;font-family:Abel;font-size:20px;line-height:39px;">Our diploma programs provide specialized training in a range of fields, including accounting, journalism, and more. With a focus on practical, hands-on experience, our diploma programs provide a fast track to a rewarding career.</span></div>
+<div id="wb_Image5" style="position:absolute;left:852px;top:2764px;width:408px;height:272px;z-index:17;">
+<img src="images/pexels-tam-hoang-1007066.jpg" id="Image5" alt="" width="408" height="618"></div>
+<div id="wb_Text13" style="position:absolute;left:100px;top:3165px;width:385px;height:36px;z-index:18;" data--1-top="opacity:0.8;" data-50-top="transform: rotate(3deg);" data-50-bottom-top="transform: rotate(0deg);" data-bottom-top="opacity:1;" data-top="filter:blur(3px);" data-center-top="filter:blur(0px);">
+<span style="color:#F5F5F5;font-family:'Open Sans Condensed';font-size:27px;">Certificate programs:</span></div>
+<div id="wb_Text14" style="position:absolute;left:100px;top:3227px;width:662px;height:156px;z-index:19;" data-20-top="transform:translate(0px,20px);" data-25-bottom-top="transform:translate(0px,25px);">
+<span style="color:#F5F5F5;font-family:Abel;font-size:20px;line-height:39px;">Our certificate programs provide training in a specific area of study, such as entrepreneurship, leadership, or pastoral care. With flexible scheduling and a focus on real-world skills, our certificate programs are designed for working professionals who want to enhance their skills and knowledge</span></div>
+<div id="wb_Image6" style="position:absolute;left:852px;top:3140px;width:408px;height:272px;z-index:20;">
+<img src="images/pexels-andrea-piacquadio-3807755.jpg" id="Image6" alt="" width="408" height="272"></div>
+<div id="wb_Text15" style="position:absolute;left:463px;top:3633px;width:434px;height:39px;text-align:center;z-index:21;" data--1-top="opacity:0.8;" data-bottom-top="transform: rotate(0deg);opacity:1;" data-top="transform: rotate(3deg);filter:blur(3px);" data-center-top="filter:blur(0px);">
+<span style="color:#F5F5F5;font-family:'DISCIPLINA PERSONAL USE';font-size:32px;">Testimonials</span></div>
+<div id="wb_Card1" style="position:absolute;left:179px;top:3744px;width:520px;height:550px;z-index:22;" class="card">
+   <div id="Card1-card-body">
+      <img id="Card1-card-item0" src="images/pexels-andrea-piacquadio-3769021.jpg" width="6100" height="4067" alt="" title="">
+      <div id="Card1-card-item1">Victoria Anderson</div>
+      <div id="Card1-card-item2">At St. Paul's, I have been able to pursue my academic interests while also getting involved in clubs and organizations that have allowed me to develop my leadership skills and make lasting friendships.</div>
+      <hr id="Card1-card-item3">
+   </div></div>
+<div id="wb_Card2" style="position:absolute;left:765px;top:3744px;width:581px;height:189px;z-index:23;" class="card">
+   <div id="Card2-card-body">
+      <div id="Card2-card-item0">Ashley MacAdams</div>
+      <div id="Card2-card-item1">The resources available to students at St. Paul's are truly impressive - from the career center, to the counseling services, to the writing center, I have always felt supported and encouraged to pursue my goals</div>
+   </div></div>
+<div id="wb_Card3" style="position:absolute;left:765px;top:3981px;width:581px;height:272px;z-index:24;" class="card">
+   <div id="Card3-card-body">
+      <div id="Card3-card-item0">Ellise Nailer</div>
+      <div id="Card3-card-item1">I chose St. Paul's University because I was looking for a university that would challenge me academically while also providing opportunities for personal growth and community involvement. Since starting at St. Paul's, I have been able to do just that. Not only have I been able to take challenging courses in my major, but I have also been able to get involved in clubs and organizations that have allowed me to pursue my passions and develop my leadership skills. Additionally, the support and guidance I have received from faculty and staff has been invaluable in helping me achieve my goals.</div>
+   </div></div>
+<div id="wb_Text16" style="position:absolute;left:373px;top:5042px;width:615px;height:79px;text-align:center;z-index:25;">
+<span style="color:#F5F5F5;font-family:'DISCIPLINA PERSONAL USE';font-size:32px;">Are You ready to Start your journey with us</span></div>
+<div id="wb_ThemeableButton1" style="position:absolute;left:576px;top:5172px;width:208px;height:77px;z-index:26;">
+<a class="ui-button ui-corner-all" id="ThemeableButton1" href="./apply.html" style="width:100%;height:100%;">Apply Now</a></div>
+<div id="wb_Text17" style="position:absolute;left:463px;top:4404px;width:434px;height:39px;text-align:center;z-index:27;" data--1-top="opacity:0.8;" data-bottom-top="transform: rotate(0deg);opacity:1;" data-top="transform: rotate(3deg);filter:blur(3px);" data-center-top="filter:blur(0px);">
+<span style="color:#F5F5F5;font-family:'DISCIPLINA PERSONAL USE';font-size:32px;">Our Patners</span></div>
+<div id="SlideShow1" style="position:absolute;left:193px;top:4576px;width:975px;height:152px;overflow:hidden;border-radius:0px;z-index:28;">
+<img class="image" width="132" height="130" src="images/aag.jpg" alt="" title="">
+<img class="image" width="132" height="130" src="images/anglican-church-of-kenya.jpg" style="display:none;" alt="" title="">
+<img class="image" width="132" height="130" src="images/arizona-state-university.jpg" style="display:none;" alt="" title="">
+<img class="image" width="132" height="130" src="images/b-pcea.jpg" style="display:none;" alt="" title="">
+<img class="image" width="132" height="130" src="images/chak.jpg" style="display:none;" alt="" title="">
+<img class="image" width="132" height="130" src="images/c-national-council-of-churches-of-kenya.jpg" style="display:none;" alt="" title="">
+<img class="image" width="132" height="130" src="images/d-methodist-church-of-kenya.jpg" style="display:none;" alt="" title="">
+<img class="image" width="132" height="130" src="images/e-reformed-church-of-east-africa.jpg" style="display:none;" alt="" title="">
+<img class="image" width="132" height="130" src="images/iusdrp.jpg" style="display:none;" alt="" title="">
+<img class="image" width="132" height="130" src="images/kiambu-county-government.jpg" style="display:none;" alt="" title="">
+<img class="image" width="132" height="130" src="images/mathew-28-ministries.jpg" style="display:none;" alt="" title="">
+<img class="image" width="132" height="130" src="images/medical-benevolent-foundation.jpg" style="display:none;" alt="" title="">
+<img class="image" width="132" height="130" src="images/ministry-of-health-kenya.jpg" style="display:none;" alt="" title="">
+<img class="image" width="132" height="130" src="images/national-bank-of-kenya.jpg" style="display:none;" alt="" title="">
+<img class="image" width="132" height="130" src="images/national-nurses-association-of-kenya.jpg" style="display:none;" alt="" title="">
+<img class="image" width="132" height="130" src="images/nursing-council-of-kenya.jpg" style="display:none;" alt="" title="">
+<img class="image" width="132" height="130" src="images/procmura.jpg" style="display:none;" alt="" title="">
+<img class="image" width="132" height="130" src="images/world-vision.jpg" style="display:none;" alt="" title="">
+</div>
+<div id="preloader"></div>
+</body>
+</html>
